@@ -1,4 +1,4 @@
-import Header from "./components/header/header.component";
+// import Header from "./components/header/header.component";
 import Cover from "./components/cover/cover.component";
 
 import "./App.css";

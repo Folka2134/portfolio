@@ -1,0 +1,10 @@
+.cover-container {
+  background-image: url("../../images/m90bb95n3m651.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.button {
+  /* NEEDS ANIMATE */
+}
