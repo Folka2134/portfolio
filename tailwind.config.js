@@ -10,6 +10,9 @@ module.exports = {
         "blue-dark": "#0E1F2F",
         "blue-darker": "#2A2E4B",
       },
+      backgroundImage: {
+        "space-background": "url('/src/images/m90bb95n3m651.jpg')",
+      },
     },
   },
   variants: {

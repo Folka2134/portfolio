@@ -2,7 +2,7 @@ import React from 'react';
 import { IconContext } from 'react-icons/lib';
 
 import {FaHtml5, FaJsSquare, FaReact, FaNodeJs, FaPython} from "react-icons/fa"
-import {SiPostgresql, SiRedux} from "react-icons/si"
+import {SiPostgresql, SiRedux, SiFirebase} from "react-icons/si"
 
 const Banner = () => {
   return (
@@ -14,16 +14,17 @@ const Banner = () => {
         <a href="https://github.com/Folka2134" target="_blank" rel="noreferrer" className="button">Github</a>
       </footer>
       
-      <IconContext.Provider value={{color: "#5B5B5B", size:"250"}}>
-        <div className="bg-gray-200 mt-24 p-9 overflow-hidden">
+      <IconContext.Provider value={{color: "#5B5B5B", size:"170"}}>
+        <div className="bg-gray-200 mt-24 p-6 overflow-hidden">
           <div className="flex flex-wrap justify-around w-full">
-            <div className="image"><FaHtml5 /></div>
-            <div className="image"><FaJsSquare /></div>
-            <div className="image"><FaReact  /></div>
-            <div className="image"><FaNodeJs /></div>
-            <div className="image"><SiRedux /></div>
-            <div className="image"><FaPython /></div>
-            <div className="image"><SiPostgresql /></div>
+            <div className="mb-5 md:mb-0"><FaHtml5 /></div>
+            <div className="mb-5 md:mb-0"><FaJsSquare /></div>
+            <div className="mb-5 md:mb-0"><FaReact  /></div>
+            <div className="mb-5 md:mb-0"><FaNodeJs /></div>
+            <div className="mb-5 md:mb-0"><SiRedux /></div>
+            <div className="mb-5 md:mb-0"><FaPython /></div>
+            <div className="mb-5 md:mb-0"><SiPostgresql /></div>
+            <div className="mb-5 md:mb-0"><SiFirebase /></div>
           </div>
         </div>
       </IconContext.Provider>
