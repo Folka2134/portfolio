@@ -16,6 +16,9 @@ body {
     @apply inline-block mx-1 px-10 py-3 rounded-lg bg-red-500 hover:bg-red-400 cursor-pointer
             transition-all duration-300 ease-linear shadow-2xl;
   }
+  /* .image {
+    @apply bg-gray-500;
+  } */
 }
 
 @media (max-width: 768px) {
