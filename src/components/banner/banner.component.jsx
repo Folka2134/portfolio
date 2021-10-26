@@ -1,8 +1,8 @@
 import React from 'react';
 import { IconContext } from 'react-icons/lib';
 
-import {FaHtml5, FaJsSquare, FaReact, FaNodeJs, FaPython} from "react-icons/fa"
-import {SiPostgresql, SiRedux, SiFirebase} from "react-icons/si"
+import {FaHtml5, FaJsSquare, FaReact, FaNodeJs, FaPython, FaGitAlt} from "react-icons/fa"
+import {SiPostgresql, SiRedux} from "react-icons/si"
 
 const Banner = () => {
   return (
@@ -24,7 +24,7 @@ const Banner = () => {
             <div className="mb-5 md:mb-0"><SiRedux /></div>
             <div className="mb-5 md:mb-0"><FaPython /></div>
             <div className="mb-5 md:mb-0"><SiPostgresql /></div>
-            <div className="mb-5 md:mb-0"><SiFirebase /></div>
+            <div className="mb-5 md:mb-0"><FaGitAlt /></div>
           </div>
         </div>
       </IconContext.Provider>
