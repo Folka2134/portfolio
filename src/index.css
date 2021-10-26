@@ -13,16 +13,7 @@ body {
 
 @layer components {
   .button {
-    @apply inline-block mx-1 px-10 py-3 rounded-lg bg-red-500 hover:bg-red-400 cursor-pointer
+    @apply inline-block mx-1 my-1 px-10 py-3 rounded-lg bg-red-500 hover:bg-red-400 cursor-pointer
             transition-all duration-300 ease-linear shadow-2xl;
-  }
-  /* .image {
-    @apply bg-gray-500;
-  } */
-}
-
-@media (max-width: 768px) {
-  .cover-title > h1 {
-    @apply text-5xl;
   }
 }
