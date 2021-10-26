@@ -13,7 +13,7 @@ const Cover = () => {
           <hr className='' />
           <p className='justify-self-center mt-7'>Otis Peters-Murphy</p>
           <div className='grid justify-center mt-5'>
-            <a href="#.." className="button inline-block p-9 rounded-large bg-red-500 hover:bg-red-400 cursor-pointer"><FaFolder size={25}/></a>
+            <a href="#.." className="button"><FaFolder size={25}/></a>
           </div>
         </header>
       </div>
