@@ -6,7 +6,7 @@ import {SiPostgresql, SiRedux} from "react-icons/si"
 
 const Banner = () => {
   return (
-    <div id="banner" className="banner-container text-center h-4/5 py-24 text-2xl md:text-3xl" >
+    <div id="banner" className="banner-container text-center h-auto py-24 text-2xl md:text-3xl" >
       <p>Hey my name is Otis and I'm a software developer <br/>based in Brighton, uk </p>
       <footer className="mt-10 text-base grid sm:flex justify-center text-white">
         <a href="#." target="_blank" rel="noreferrer" className="button">Resume</a>
@@ -27,9 +27,6 @@ const Banner = () => {
           </div>
         </div>
       </IconContext.Provider>
-
-
-
     </div>
   );
 }

@@ -1,6 +1,7 @@
 // import Header from "./components/header/header.component";
 import Cover from "./components/cover/cover.component";
 import Banner from "./components/banner/banner.component";
+import Projects from "./components/projects/projects.component";
 
 import "./App.css";
 
@@ -10,6 +11,7 @@ const App = () => {
       {/* <Header /> */}
       <Cover />
       <Banner />
+      <Projects />
     </div>
   );
 };
