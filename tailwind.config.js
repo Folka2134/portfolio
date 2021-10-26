@@ -4,8 +4,12 @@ module.exports = {
   theme: {
     extend: {
       borderRadius: {
-        'large' : '5em'
-      }
+        large: "5em",
+      },
+      colors: {
+        "blue-dark": "#0E1F2F",
+        "blue-darker": "#2A2E4B",
+      },
     },
   },
   variants: {
