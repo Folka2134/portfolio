@@ -9,6 +9,7 @@ module.exports = {
       colors: {
         "blue-dark": "#0E1F2F",
         "blue-darker": "#2A2E4B",
+        "dark-white" : "#F0F2F5"
       },
       backgroundImage: {
         "space-background": "url('/src/images/m90bb95n3m651.jpg')",
