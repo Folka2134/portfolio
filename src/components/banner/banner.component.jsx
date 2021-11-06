@@ -14,19 +14,19 @@ const Banner = () => {
         <a href="https://github.com/Folka2134" target="_blank" rel="noreferrer" className="button">Github</a>
       </footer>
 
-      <IconContext.Provider value={{ color: "#5B5B5B", size: "155" }}>
-        <div className="bg-gray-300 mt-24 p-6 overflow-hidden">
+      <IconContext.Provider value={{ size: "155", className: "icon" }}>
+        <div className="bg-gray-300 mt-24 py-2 px-10 overflow-hidden">
           <div className="flex flex-wrap justify-around w-full">
-            <div className="mb-5 md:mb-0"><FaHtml5 /></div>
-            <div className="mb-5 md:mb-0"><FaCss3Alt /></div>
-            <div className="mb-5 md:mb-0"><FaJsSquare /></div>
-            <div className="mb-5 md:mb-0"><FaReact /></div>
-            <div className="mb-5 md:mb-0"><FaNodeJs /></div>
-            <div className="mb-5 md:mb-0"><SiExpress /></div>
-            <div className="mb-5 md:mb-0"><FaPython /></div>
-            <div className="mb-5 md:mb-0"><SiPostgresql /></div>
-            <div className="mb-5 md:mb-0"><SiFirebase /></div>
-            <div className="mb-5 md:mb-0"><FaGitAlt /></div>
+            <div className="group"><FaHtml5 className="hover:text-icon-red"/> <span className="iconText">HTML</span></div>
+            <div className="group"><FaCss3Alt className="hover:text-blue-600"/> <span className="iconText">CSS</span></div>
+            <div className="group"><FaJsSquare className="hover:text-yellow-500"/><span className="iconText">JavaScript</span></div>
+            <div className="group"><FaReact className="hover:text-blue-400"/><span className="iconText">React</span></div>
+            <div className="group"><FaNodeJs className="hover:text-icon-green"/><span className="iconText">NodeJs</span></div>
+            <div className="group"><SiExpress className="hover:text-red-700"/><span className="iconText">Express</span></div>
+            <div className="group"><FaPython className="hover:text-icon-pblue"/><span className="iconText">Python</span></div>
+            <div className="group"><SiPostgresql className="hover:text-icon-pgblue"/><span className="iconText">Prostgres</span></div>
+            <div className="group"><SiFirebase className="hover:text-icon-yellow"/><span className="iconText">Firebase</span></div>
+            <div className="group"><FaGitAlt className="hover:text-icon-gred"/><span className="iconText">Git</span></div>
           </div>
         </div>
       </IconContext.Provider>

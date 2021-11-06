@@ -3,7 +3,7 @@ import React from 'react';
 const Projects = () => {
   return (
     <div className="projects-container  bg-dark-white h-auto pb-10">
-      <h1 className="mb-8 text-3xl font-medium text-center">Projects</h1>
+      <h1 className="mb-8 text-4xl font-medium text-center">Projects</h1>
       <div className="project-list grid grid-cols-1 md:grid-cols-3">
         <div className="rounded overflow-hidden shadow-md hover:shadow-2xl mx-5 mb-8 transition-all duration-300 ease-linear">
           <img className="w-full" src="https://images.squarespace-cdn.com/content/v1/55cfb535e4b061baebe310df/1587472623697-IC8B3J3ZIZI0AMIE7U8G/sky+photo+for+website+home+page.jpeg?format=2500w" alt="Mountain" />

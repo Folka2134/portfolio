@@ -4,11 +4,47 @@
 @tailwind screens;
 
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600");
+@import url("https://fonts.googleapis.com/css2?family=Prompt:ital,wght@1,100&display=swap");
+
+@font-face {
+  font-family: 'titleFont';
+  /* src: local('techFont'), url(%PUBLIC_URL%/font/techFont.ttf) format('truetype'); */
+  src: local('titleFont9'), url(/src/font/titleFont9.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'techFont';
+  src: local('techFont9'), url(/src/font/titleFont9.ttf) format('truetype');
+  /* src: local('titleFont4'), url(/src/font/titleFont4.ttf) format('truetype'); */
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
 
 body {
   font-size: 15pt;
   font-weight: 300;
   font-family: "Source Sans Pro", sans-serif;
+  /* font-family: "allFont" */
+}
+
+.title {
+  font-family: "titleFont";
+  
+}
+
+.project-title {
+  font-family: "projectFont";
+}
+
+.iconText {
+  /* font-family: 'Prompt', sans-serif; */
+  font-family: "techFont"
+}
+
+.cover-container {
+  animation: fadeIn 3s;
 }
 
 @layer components {
@@ -19,5 +55,12 @@ body {
   .tag {
     @apply inline-block px-3 py-1 text-sm font-semibold mr-2 mb-2 rounded-lg bg-blue-dark hover:bg-blue-darker
             transition-all duration-300 ease-linear shadow-2xl;
+  }
+  .icon {
+    @apply mb-1 md:mb-1 mt-0 md:mt-10 transition-all duration-500 ease-linear text-icon-grey 
+    
+  }
+  .iconText {
+    @apply mb-1 md:mb-0 transition-all duration-500 ease-linear text-icon-grey text-opacity-0 group-hover:text-icon-grey  group-hover:text-opacity-100 
   }
 }
