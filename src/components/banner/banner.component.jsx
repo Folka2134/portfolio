@@ -1,10 +1,14 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { IconContext } from 'react-icons/lib';
 
 import { FaHtml5, FaJsSquare, FaReact, FaNodeJs, FaPython, FaGitAlt, FaCss3Alt } from "react-icons/fa"
 import { SiPostgresql, SiFirebase, SiExpress } from "react-icons/si"
 
+
+
 const Banner = () => {
+
+
   return (
     <div id="banner" className="banner-container bg-dark-white text-center h-auto py-24 text-2xl md:text-3xl" >
       <p>Hey my name is Otis and I'm a software developer <br />based in Brighton, uk </p>
@@ -17,6 +21,7 @@ const Banner = () => {
       <IconContext.Provider value={{ size: "155", className: "icon" }}>
         <div className="bg-gray-300 mt-24 py-2 px-10 overflow-hidden">
           <div className="flex flex-wrap justify-around w-full">
+
             <div className="group"><FaHtml5 className="hover:text-icon-red"/> <span className="iconText">HTML</span></div>
             <div className="group"><FaCss3Alt className="hover:text-blue-600"/> <span className="iconText">CSS</span></div>
             <div className="group"><FaJsSquare className="hover:text-yellow-500"/><span className="iconText">JavaScript</span></div>
