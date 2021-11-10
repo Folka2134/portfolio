@@ -1,11 +1,17 @@
 import React from 'react';
+// import { bounce } from 'react-animations';
+
+
+import { Link } from 'react-scroll';
+import { FaArrowUp } from 'react-icons/fa'
 
 import smartBrainPreview from "../../images/smartbrain_preview2.png"
 
+
 const Projects = () => {
   return (
-    <div className="projects-container  bg-dark-white h-auto pb-10">
-      <h1 className="mb-8 text-4xl font-medium text-center">Projects</h1>
+    <div id="projects" className="projects-container bg-dark-white h-auto pb-1 ">
+      <Link to="projects-container" smooth={true}><h1 className="w-full mb-8 h-10 text-4xl font-medium text-center text-white bg-space-background bg-bottom bg-cover bg-fixed cursor-pointer title">Projects</h1></Link>
       <div className="project-list grid grid-cols-1 md:grid-cols-3">
         <div className="rounded overflow-hidden shadow-md hover:shadow-2xl mx-5 mb-8 transition-all duration-300 ease-linear">
           <img className="w-full" src={smartBrainPreview} alt="Mountain" />
@@ -32,8 +38,8 @@ const Projects = () => {
             <span className="tag">Postgresql</span>
           </div>
           <div className="px-6 pb-2 text-center text-white">
-            <a className="inline-block px-3 py-1 text-sm font-semibold mr-2 mb-2 button">Live</a>
-            <a href="https://github.com/Folka2134/face-detection-app" className="inline-block px-3 py-1 text-sm font-semibold mr-2 mb-2 button" target="_blank">Github</a>
+            <a href="#." className="inline-block px-3 py-1 text-sm font-semibold mr-2 mb-2 button">Live</a>
+            <a href="https://github.com/Folka2134/face-detection-app" className="inline-block px-3 py-1 text-sm font-semibold mr-2 mb-2 button" target="_blank" rel="noreferrer">Github</a>
           </div>
         </div>
         <div className="rounded overflow-hidden shadow-md hover:shadow-2xl mx-5 mb-8 transition-all duration-300 ease-linear">
@@ -94,6 +100,9 @@ const Projects = () => {
         </div>
 
 
+      </div>
+      <div className='flex w-full justify-end px-16 opacity-90'>
+        <Link to="cover-container" smooth={true} className="button buttonBounce rounded-large p-5 mb-5 text-blue-dark"><FaArrowUp size={25}/></Link>
       </div>
     </div>
 

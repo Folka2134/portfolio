@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import { IconContext } from 'react-icons/lib';
 
 import { FaHtml5, FaJsSquare, FaReact, FaNodeJs, FaPython, FaGitAlt, FaCss3Alt } from "react-icons/fa"
@@ -19,7 +19,7 @@ const Banner = () => {
       </footer>
 
       <IconContext.Provider value={{ size: "155", className: "icon" }}>
-        <div className="bg-gray-300 mt-24 py-2 px-10 overflow-hidden">
+        <div className="bg-gray-300 mt-24 py-2 px-10 overflow-hidden ">
           <div className="flex flex-wrap justify-around w-full">
 
             <div className="group"><FaHtml5 className="hover:text-icon-red"/> <span className="iconText">HTML</span></div>
