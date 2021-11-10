@@ -10,8 +10,8 @@ const Banner = () => {
 
 
   return (
-    <div id="banner" className="banner-container bg-dark-white text-center h-auto py-24 text-2xl md:text-3xl" >
-      <p>Hey my name is Otis and I'm a software developer <br />based in Brighton, uk </p>
+    <div id="banner" className="banner-container bg-dark-white text-center h-auto py-24 text-2xl md:text-2xl" >
+      <p className="">Hey my name is Otis and I'm a software developer <br />based in Brighton, uk </p>
       <footer className="mt-10 text-base grid sm:flex justify-center text-white">
         <a href="#." target="_blank" rel="noreferrer" className="button">Resume</a>
         <a href="https://uk.linkedin.com/in/otis-peters-murphy-0246941a9?trk=people-guest_people_search-card" target="_blank" rel="noreferrer" className="button">Linkedin</a>
@@ -20,7 +20,7 @@ const Banner = () => {
 
       <IconContext.Provider value={{ size: "155", className: "icon" }}>
         <div className="bg-icon-grey2 mt-24 py-2 px-10 overflow-hidden ">
-          <div className="flex flex-wrap justify-around w-full">
+          <div className="flex flex-wrap justify-around w-full text-2xl md:text-3xl">
 
             <div className="group"><FaHtml5 className="hover:text-icon-red"/> <span className="iconText">HTML</span></div>
             <div className="group"><FaCss3Alt className="hover:text-blue-600"/> <span className="iconText">CSS</span></div>

@@ -5,6 +5,12 @@
 
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600");
 @import url("https://fonts.googleapis.com/css2?family=Prompt:ital,wght@1,100&display=swap");
+/* allfont */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&family=Poppins:wght@200&display=swap');
+
+
+
 
 @font-face {
   font-family: 'titleFont';
@@ -14,6 +20,11 @@
 @font-face {
   font-family: 'techFont';
   src: local('techFont9'), url(/src/font/titleFont9.ttf) format('truetype');
+  /* src: local('titleFont4'), url(/src/font/titleFont4.ttf) format('truetype'); */
+}
+@font-face {
+  font-family: 'allFont';
+  src: local('allFont'), url(/src/font/allFont2.ttf) format('truetype ');
   /* src: local('titleFont4'), url(/src/font/titleFont4.ttf) format('truetype'); */
 }
 @keyframes fadeIn {
@@ -49,9 +60,12 @@
 
 body {
   font-size: 15pt;
-  font-weight: 300;
-  font-family: "Source Sans Pro", sans-serif;
-  /* font-family: "allFont" */
+  /* font-weight: 300; */
+  /* font-family: "Source Sans Pro", sans-serif; */
+  /* font-family: 'Open Sans', sans-serif; */
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Poppins', sans-serif;
+  
   min-width: 400px;
 }
 
