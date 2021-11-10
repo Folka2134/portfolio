@@ -19,12 +19,12 @@ const Banner = () => {
       </footer>
 
       <IconContext.Provider value={{ size: "155", className: "icon" }}>
-        <div className="bg-gray-300 mt-24 py-2 px-10 overflow-hidden ">
+        <div className="bg-icon-grey2 mt-24 py-2 px-10 overflow-hidden ">
           <div className="flex flex-wrap justify-around w-full">
 
             <div className="group"><FaHtml5 className="hover:text-icon-red"/> <span className="iconText">HTML</span></div>
             <div className="group"><FaCss3Alt className="hover:text-blue-600"/> <span className="iconText">CSS</span></div>
-            <div className="group"><FaJsSquare className="hover:text-yellow-500"/><span className="iconText">JavaScript</span></div>
+            <div className="group"><FaJsSquare className="hover:text-icon-yellow2"/><span className="iconText">JavaScript</span></div>
             <div className="group"><FaReact className="hover:text-blue-400"/><span className="iconText">React</span></div>
             <div className="group"><FaNodeJs className="hover:text-icon-green"/><span className="iconText">NodeJs</span></div>
             <div className="group"><SiExpress className="hover:text-red-700"/><span className="iconText">Express</span></div>

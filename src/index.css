@@ -52,6 +52,7 @@ body {
   font-weight: 300;
   font-family: "Source Sans Pro", sans-serif;
   /* font-family: "allFont" */
+  min-width: 400px;
 }
 
 .title {
