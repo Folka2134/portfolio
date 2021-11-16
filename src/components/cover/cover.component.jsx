@@ -19,7 +19,8 @@ const Cover = () => {
           <hr className='' />
           <p className='justify-self-center mt-7'>Otis Peters-Murphy</p>
           <div className='justify-self-center mt-5'>
-            <Link to="banner-container" smooth={true} className="button rounded-large p-9"><FaFolder size={25}/></Link>
+            
+            <Link to="banner-container" smooth={true} className="button rounded-large p-7"><FaFolder size={30} className="animate-pulse duration-1000 delay-1000"/></Link>
           </div>
         </header>
       </div>

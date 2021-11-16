@@ -7,6 +7,7 @@ import { FaArrowUp } from 'react-icons/fa'
 
 import smartBrainPreview from "../../images/smartbrain_preview2.png"
 import kingsHifiPreview from "../../images/kingshifi_preview.png"
+import weatherFlipPreview from "../../images/weatherflip_preview.png"
 
 
 const Projects = () => {
@@ -76,92 +77,38 @@ const Projects = () => {
           </div>
         </div>
         <div className="rounded overflow-hidden shadow-md hover:shadow-2xl mx-5 mb-8 transition-all duration-300 ease-linear">
-          <img className="w-full" src={kingsHifiPreview} alt="Mountain" />
+          <img className="w-full" src={weatherFlipPreview} alt="Mountain" />
           <div className="px-6 py-4 flex">
             <div className="flex-1 border-r-4 p-4">
-              <header className="font-bold text-xl mb-2">Kings Hi-Fi Site</header>
+              <header className="font-bold text-xl mb-2">Weather App</header>
               <p className="text-gray-700 text-lg">
-                Website built for local record label/collective Kings Hi-Fi.
+                Created a visually appealing weather app. Displaying over 200,000 cities and providing additional information and news per location.
                 <br></br>
                 <br></br>
-                This is the first commissioned project I've done, in which I had designs and features to implement via customer requirements/requests.
+                Here I'm pulling all data from the <a href="https://openweathermap.org/" className="underline md:break-normal break-all">https://openweathermap.org/</a> api
               </p>
             </div>
             <div className="flex-1 pl-6 p-4">
               <header className="font-bold text-xl">Project Improvements</header>
               <ul className="text-gray-700 text-lg list-disc p-2">
-                <li>Implement E-commerce features.</li>
-                <li>Create a custom music player.</li>
+                <li>Implement card flipping</li>
+                <li>Provide location images</li>
+                <li>Add country flag to card</li>
+                <li>Expand current dataset beyond 200 cities</li>
               </ul>
             </div>
           </div>
           <div className="px-6 text-center text-white">
             <span className="tag">React</span>
-            <span className="tag">Firebase</span>
+            <span className="tag">Tailwind</span>
           </div>
           <div className="px-6 pb-2 text-center text-white">
             <span className="inline-block px-3 py-1 text-sm font-semibold mr-2 mb-2 button">Live</span>
             <span className="inline-block px-3 py-1 text-sm font-semibold mr-2 mb-2 button">Github</span>
           </div>
         </div>
-        <div className="rounded overflow-hidden shadow-md hover:shadow-2xl mx-5 mb-8 transition-all duration-300 ease-linear">
-          <img className="w-full" src={kingsHifiPreview} alt="Mountain" />
-          <div className="px-6 py-4 flex">
-            <div className="flex-1 border-r-4 p-4">
-              <header className="font-bold text-xl mb-2">Kings Hi-Fi Site</header>
-              <p className="text-gray-700 text-lg">
-                Website built for local record label/collective Kings Hi-Fi.
-                <br></br>
-                <br></br>
-                This is the first commissioned project I've done, in which I had designs and features to implement via customer requirements/requests.
-              </p>
-            </div>
-            <div className="flex-1 pl-6 p-4">
-              <header className="font-bold text-xl">Project Improvements</header>
-              <ul className="text-gray-700 text-lg list-disc p-2">
-                <li>Implement E-commerce features.</li>
-                <li>Create a custom music player.</li>
-              </ul>
-            </div>
-          </div>
-          <div className="px-6 text-center text-white">
-            <span className="tag">React</span>
-            <span className="tag">Firebase</span>
-          </div>
-          <div className="px-6 pb-2 text-center text-white">
-            <span className="inline-block px-3 py-1 text-sm font-semibold mr-2 mb-2 button">Live</span>
-            <span className="inline-block px-3 py-1 text-sm font-semibold mr-2 mb-2 button">Github</span>
-          </div>
-        </div>
-        <div className="rounded overflow-hidden shadow-md hover:shadow-2xl mx-5 mb-8 transition-all duration-300 ease-linear">
-          <img className="w-full" src={kingsHifiPreview} alt="Mountain" />
-          <div className="px-6 py-4 flex">
-            <div className="flex-1 border-r-4 p-4">
-              <header className="font-bold text-xl mb-2">Kings Hi-Fi Site</header>
-              <p className="text-gray-700 text-lg">
-                Website built for local record label/collective Kings Hi-Fi.
-                <br></br>
-                <br></br>
-                This is the first commissioned project I've done, in which I had designs and features to implement via customer requirements/requests.
-              </p>
-            </div>
-            <div className="flex-1 pl-6 p-4">
-              <header className="font-bold text-xl">Project Improvements</header>
-              <ul className="text-gray-700 text-lg list-disc p-2">
-                <li>Implement E-commerce features.</li>
-                <li>Create a custom music player.</li>
-              </ul>
-            </div>
-          </div>
-          <div className="px-6 text-center text-white">
-            <span className="tag">React</span>
-            <span className="tag">Firebase</span>
-          </div>
-          <div className="px-6 pb-2 text-center text-white">
-            <span className="inline-block px-3 py-1 text-sm font-semibold mr-2 mb-2 button">Live</span>
-            <span className="inline-block px-3 py-1 text-sm font-semibold mr-2 mb-2 button">Github</span>
-          </div>
-        </div>
+
+ 
 
 
       </div>
