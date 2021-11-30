@@ -82,7 +82,7 @@ const Projects = () => {
             <div className="flex-1 border-r-4 p-4">
               <header className="font-bold text-xl mb-2">Weather App</header>
               <p className="text-gray-700 text-lg">
-                Created a visually appealing weather app. Displaying 150+ cities and providing additional information specific to the location.
+                Created a simple weather app with React. Displaying 150+ cities and providing additional information specific to the location.
                 <br></br>
                 <br></br>
                 Here I'm pulling all data from the <a href="https://openweathermap.org/" className="underline md:break-normal break-all">https://openweathermap.org/</a> api
