@@ -82,7 +82,7 @@ const Projects = () => {
             <div className="flex-1 border-r-4 p-4">
               <header className="font-bold text-xl mb-2">Weather App</header>
               <p className="text-gray-700 text-lg">
-                Created a visually appealing weather app. Displaying over 200,000 cities and providing additional information and news per location.
+                Created a visually appealing weather app. Displaying 150+ cities and providing additional information specific to the location.
                 <br></br>
                 <br></br>
                 Here I'm pulling all data from the <a href="https://openweathermap.org/" className="underline md:break-normal break-all">https://openweathermap.org/</a> api
@@ -91,10 +91,9 @@ const Projects = () => {
             <div className="flex-1 pl-6 p-4">
               <header className="font-bold text-xl">Project Improvements</header>
               <ul className="text-gray-700 text-lg list-disc p-2">
-                <li>Implement card flipping</li>
-                <li>Provide location images</li>
-                <li>Add country flag to card</li>
-                <li>Expand current dataset beyond 200 cities</li>
+                <li>Expand current dataset beyond 150+ cities</li>
+                <li>Implement pagination</li>
+                <li>Provide more data per location</li>
               </ul>
             </div>
           </div>
@@ -113,7 +112,7 @@ const Projects = () => {
 
       </div>
       <div className='flex w-full justify-end px-16 opacity-90'>
-        <Link to="cover-container" smooth={true} className="button buttonBounce rounded-large p-5 mb-5 text-blue-dark"><FaArrowUp size={25}/></Link>
+        <Link to="cover-container" smooth={true} className="button buttonBounce rounded-large p-5 mb-5 text-white"><FaArrowUp size={25}/></Link>
       </div>
     </div>
 
