@@ -8,6 +8,7 @@ import { FaArrowUp } from 'react-icons/fa'
 import smartBrainPreview from "../../images/smartbrain_preview2.png"
 import kingsHifiPreview from "../../images/kingshifi_preview.png"
 import weatherFlipPreview from "../../images/weatherflip_preview.png"
+import staffPartyPreview from "../../images/staffparty_preview.png"
 
 
 const Projects = () => {
@@ -99,6 +100,35 @@ const Projects = () => {
           </div>
           <div className="px-6 text-center text-white">
             <span className="tag">React</span>
+            <span className="tag">Tailwind</span>
+          </div>
+          <div className="px-6 pb-2 text-center text-white">
+            <span className="inline-block px-3 py-1 text-sm font-semibold mr-2 mb-2 button">Live</span>
+            <span className="inline-block px-3 py-1 text-sm font-semibold mr-2 mb-2 button">Github</span>
+          </div>
+        </div>
+        <div className="rounded overflow-hidden shadow-md hover:shadow-2xl mx-5 mb-8 transition-all duration-300 ease-linear">
+          <img className="w-full" src={staffPartyPreview} alt="Mountain" />
+          <div className="px-6 py-4 flex">
+            <div className="flex-1 border-r-4 p-4">
+              <header className="font-bold text-xl mb-2">Staff Party Site</header>
+              <p className="text-gray-700 text-lg">
+                Website for local Noise-rock band, <b>Staff Party</b>.
+                <br></br>
+                <br></br>
+                My second commisioned project, self designed and updated per customer request.
+              </p>
+            </div>
+            <div className="flex-1 pl-6 p-4">
+              <header className="font-bold text-xl">Project Improvements</header>
+              <ul className="text-gray-700 text-lg list-disc p-2">
+                <li>Add merch page and implement e-commerce features.</li>
+              </ul>
+            </div>
+          </div>
+          <div className="px-6 text-center text-white">
+            <span className="tag">React</span>
+            <span className="tag">CSS</span>
             <span className="tag">Tailwind</span>
           </div>
           <div className="px-6 pb-2 text-center text-white">
