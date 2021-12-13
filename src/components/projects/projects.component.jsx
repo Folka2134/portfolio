@@ -45,7 +45,7 @@ const Projects = () => {
           </div>
           <div className="px-6 pb-2 text-center text-white">
             <a href="#." className="inline-block px-3 py-1 text-sm font-semibold mr-2 mb-2 button">Live</a>
-            <a href="https://github.com/Folka2134/face-detection-app" className="inline-block px-3 py-1 text-sm font-semibold mr-2 mb-2 button" target="_blank" rel="noreferrer">Github</a>
+            <a  className="inline-block px-3 py-1 text-sm font-semibold mr-2 mb-2 button" href="https://github.com/Folka2134/face-detection-app" target="_blank" rel="noreferrer">Github</a>
           </div>
         </div>
         <div className="rounded overflow-hidden shadow-md hover:shadow-2xl mx-5 mb-8 transition-all duration-300 ease-linear">
@@ -73,8 +73,8 @@ const Projects = () => {
             <span className="tag">Firebase</span>
           </div>
           <div className="px-6 pb-2 text-center text-white">
-            <span className="inline-block px-3 py-1 text-sm font-semibold mr-2 mb-2 button">Live</span>
-            <span className="inline-block px-3 py-1 text-sm font-semibold mr-2 mb-2 button">Github</span>
+            <span className="inline-block px-3 py-1 text-sm font-semibold mr-2 mb-2 button"><a href="https://folka2134.github.io/kings-hifi/" target="_blank" rel="noreferrer">Live</a></span>
+            <span className="inline-block px-3 py-1 text-sm font-semibold mr-2 mb-2 button"><a href="https://github.com/Folka2134/kings-hifi" target="_blank" rel="noreferrer">Github</a></span>
           </div>
         </div>
         <div className="rounded overflow-hidden shadow-md hover:shadow-2xl mx-5 mb-8 transition-all duration-300 ease-linear">
@@ -103,8 +103,8 @@ const Projects = () => {
             <span className="tag">Tailwind</span>
           </div>
           <div className="px-6 pb-2 text-center text-white">
-            <span className="inline-block px-3 py-1 text-sm font-semibold mr-2 mb-2 button">Live</span>
-            <span className="inline-block px-3 py-1 text-sm font-semibold mr-2 mb-2 button">Github</span>
+            <span className="inline-block px-3 py-1 text-sm font-semibold mr-2 mb-2 button"><a href="https://folka2134.github.io/weather-app/" target="_blank" rel="noreferrer">Live</a></span>
+            <span className="inline-block px-3 py-1 text-sm font-semibold mr-2 mb-2 button"><a href="https://github.com/Folka2134/weather-app" target="_blank" rel="noreferrer">Github</a></span>
           </div>
         </div>
         <div className="rounded overflow-hidden shadow-md hover:shadow-2xl mx-5 mb-8 transition-all duration-300 ease-linear">
@@ -132,8 +132,8 @@ const Projects = () => {
             <span className="tag">Tailwind</span>
           </div>
           <div className="px-6 pb-2 text-center text-white">
-            <span className="inline-block px-3 py-1 text-sm font-semibold mr-2 mb-2 button">Live</span>
-            <span className="inline-block px-3 py-1 text-sm font-semibold mr-2 mb-2 button">Github</span>
+            <span className="inline-block px-3 py-1 text-sm font-semibold mr-2 mb-2 button"><a href="https://folka2134.github.io/staff-party/" target="_blank" rel="noreferrer">Live</a></span>
+            <span className="inline-block px-3 py-1 text-sm font-semibold mr-2 mb-2 button"><a href="https://github.com/Folka2134/staff-party" target="_blank" rel="noreferrer">Github</a></span>
           </div>
         </div>
 
