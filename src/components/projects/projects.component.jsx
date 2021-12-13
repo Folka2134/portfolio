@@ -44,8 +44,8 @@ const Projects = () => {
             <span className="tag">Postgresql</span>
           </div>
           <div className="px-6 pb-2 text-center text-white">
-            <a href="#." className="inline-block px-3 py-1 text-sm font-semibold mr-2 mb-2 button">Live</a>
-            <a  className="inline-block px-3 py-1 text-sm font-semibold mr-2 mb-2 button" href="https://github.com/Folka2134/face-detection-app" target="_blank" rel="noreferrer">Github</a>
+            <span className="inline-block px-3 py-1 text-sm font-semibold mr-2 mb-2 button"><a href="https://folka2134.github.io/face-detection-app/" target="_blank" rel="noreferrer">Live</a></span>
+            <span className="inline-block px-3 py-1 text-sm font-semibold mr-2 mb-2 button"><a href="https://github.com/Folka2134/face-detection-app" target="_blank" rel="noreferrer">Github</a></span>
           </div>
         </div>
         <div className="rounded overflow-hidden shadow-md hover:shadow-2xl mx-5 mb-8 transition-all duration-300 ease-linear">
