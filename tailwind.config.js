@@ -23,6 +23,7 @@ module.exports = {
         "icon-red" : "#E94546",
         "icon-orange" : "#2A2E4B",
         "icon-green" : "#83CD29",
+        "icon-green2" : "#4C8E42",
         "icon-pblue" : "#3473A5",
         "icon-pgblue" : "#316192",
         "icon-yellow" : "#FFCB2D",
