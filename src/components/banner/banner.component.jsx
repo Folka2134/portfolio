@@ -32,7 +32,7 @@ const Banner = () => {
             <div className="group"><SiExpress className="hover:text-red-700" /><span className="iconText">Express</span></div>
             <div className="group"><FaPython className="hover:text-icon-pblue" /><span className="iconText">Python</span></div>
             <div className="group"><SiPostgresql className="hover:text-icon-pgblue" /><span className="iconText">Prostgres</span></div>
-            <div className="group"><SiMongodb className="hover:text-icon-green2 " /><span className="iconText">Firebase</span></div>
+            <div className="group"><SiMongodb className="hover:text-icon-green2 " /><span className="iconText">MongoDB</span></div>
             <div className="group"><FaGitAlt className="hover:text-icon-gred" /><span className="iconText">Git</span></div>
           </div>
 
