@@ -14,7 +14,7 @@ import staffPartyPreview from "../../images/staffparty_preview.png"
 const Projects = () => {
   return (
     <div id="projects" className="projects-container bg-dark-white h-auto pb-1 ">
-      <Link to="projects-container" smooth={true}><h1 className="w-full mb-8 h-10 text-4xl font-medium text-center text-white bg-space-background bg-bottom bg-cover bg-fixed cursor-pointer title">Projects</h1></Link>
+      <Link to="projects-container" smooth={true} className='sticky top-0'><h1 className="w-full mb-8 h-10 text-4xl font-medium text-center text-white bg-space-background bg-bottom bg-cover bg-fixed cursor-pointer title">Projects</h1></Link>
       <div className="project-list grid grid-cols-1 md:grid-cols-3">
         <div className="rounded overflow-hidden shadow-md hover:shadow-2xl mx-5 mb-8 transition-all duration-300 ease-linear">
           <img className="w-full" src={smartBrainPreview} alt="Mountain" />
@@ -23,8 +23,8 @@ const Projects = () => {
               <header className="font-bold text-xl mb-2">Face Detection App</header>
               <p className="text-gray-700 text-lg">
                 This app was created to "detect" faces within an image and also update a signed in user's "rank".
-              <br></br>
-              <br></br>
+                <br></br>
+                <br></br>
                 The detection is performed by pulling data from an api and the users are stored within my own database.
               </p>
             </div>
@@ -137,12 +137,12 @@ const Projects = () => {
           </div>
         </div>
 
- 
+
 
 
       </div>
       <div className='flex w-full justify-end px-16 opacity-90'>
-        <Link to="cover-container" smooth={true} className="button buttonBounce rounded-large p-5 mb-5 text-white"><FaArrowUp size={25}/></Link>
+        <Link to="cover-container" smooth={true} className="button buttonBounce rounded-large p-5 mb-5 text-white"><FaArrowUp size={25} /></Link>
       </div>
     </div>
 
