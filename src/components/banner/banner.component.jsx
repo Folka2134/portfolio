@@ -5,7 +5,7 @@ import { Link } from 'react-scroll';
 import { FaArrowDown } from 'react-icons/fa'
 
 import { FaHtml5, FaJsSquare, FaReact, FaNodeJs, FaPython, FaGitAlt, FaCss3Alt } from "react-icons/fa"
-import { SiPostgresql, SiFirebase, SiExpress, SiMongodb } from "react-icons/si"
+import { SiPostgresql, SiExpress, SiMongodb } from "react-icons/si"
 
 
 
@@ -16,8 +16,8 @@ const Banner = () => {
     <div id="banner" className="banner-container bg-dark-white text-center h-auto py-24 md:pt-24 md:pb-0 text-2xl md:text-2xl" >
       <p className="">Hey my name is Otis and I'm a software developer <br />based in Brighton, uk </p>
       <footer className="mt-10 text-base grid sm:flex justify-center text-white">
-        <a href="#." target="_blank" rel="noreferrer" className="button">Resume</a>
-        <a href="https://uk.linkedin.com/in/otis-peters-murphy-0246941a9?trk=people-guest_people_search-card" target="_blank" rel="noreferrer" className="button">Linkedin</a>
+        <a href="https://docs.google.com/document/d/1INOSqBDTrXk-q1KhDKAi7HCnBOEn4_1dszA9h7zleFA/edit?usp=sharing" target="_blank" rel="noreferrer" className="button">Resume</a>
+        <a href="https://www.linkedin.com/in/otis-murphy-a05034242/" target="_blank" rel="noreferrer" className="button">Linkedin</a>
         <a href="https://github.com/Folka2134" target="_blank" rel="noreferrer" className="button">Github</a>
       </footer>
 
